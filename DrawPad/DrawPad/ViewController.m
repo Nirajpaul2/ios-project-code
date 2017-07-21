@@ -168,7 +168,7 @@
             [alertView show];
         }
         
-    } //else if(buttonIndex == 0) {
+    } else if(buttonIndex == 0) {
         
         UIGraphicsBeginImageContextWithOptions(self.mainImage.bounds.size, NO, 0.0);
         [self.mainImage.image drawInRect:CGRectMake(0, 0, self.mainImage.frame.size.width, self.mainImage.frame.size.height)];
